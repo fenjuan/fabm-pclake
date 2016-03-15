@@ -1,0 +1,10 @@
+site_name: Lake Fure
+site_description: "Lake Fure project documentation"
+site_author: "Fenjuan Hu, Karsten Bolding and Dennis Trolle"
+theme: flatly
+pages:
+ - 'Home': 'index.md'
+ - 'Calibration': 'calibration.md'
+# - 'Modelling': 'model.md'
+#- 'Catchment' : 'catchment.md'
+ - 'MkDocs': 'mkdocs.md'
