@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/calibration/", 
-            "text": "Observations\n\n\nObservation files here refer to in-lake measurements, used for calibration\n\n\nObservation files location\n\n\n../Obs/..\n\n\nTemperature\n\n\nChecking on Mar.1st\n\n\nSurface Temperature, OK \n\nBottom Temperature:from 2007, the data need to modified manually according to temp_profile_obs.dat \n\n\nOther observed variables\n\n\nBottm:/Obs/Fure_bottom_26m_chem.csv \n\nOBS: Modified March 1st. \n\nSurface:/Obs/Fure_surface_biochem.csv", 
+            "text": "Observations\n\n\nObservation files here refer to in-lake measurements, used for calibration\n\n\nObservation files location\n\n\n../Obs/..\n\n\nTemperature\n\n\nChecking on Mar.1st\n\n\nSurface Temperature, OK \n\nBottom Temperature:from 2007, the data need to modified manually according to temp_profile_obs.dat \n\n\nOther observed variables\n\n\nBottm:/Obs/Fure_bottom_26m_chem.csv \n\nOBS: Modified March 1st. \n\nSurface:/Obs/Fure_surface_biochem.csv  \n\n\nParameter tracking, the fabm.yaml file\n\n\nOrigial_yaml file", 
             "title": "Calibration"
         }, 
         {
@@ -49,6 +49,11 @@
             "location": "/calibration/#other-observed-variables", 
             "text": "Bottm:/Obs/Fure_bottom_26m_chem.csv  \nOBS: Modified March 1st.  \nSurface:/Obs/Fure_surface_biochem.csv", 
             "title": "Other observed variables"
+        }, 
+        {
+            "location": "/calibration/#parameter-tracking-the-fabmyaml-file", 
+            "text": "Origial_yaml file", 
+            "title": "Parameter tracking, the fabm.yaml file"
         }, 
         {
             "location": "/mkdocs/", 
