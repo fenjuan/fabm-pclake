@@ -2,33 +2,153 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Lake Fure documentation\n\n\n1. Introduction to Lake Fure(Fures\u00f8)\n\n\n2. Lake Fure Physical environment\n\n\n\n\nLake overview\n\n\n2D Lake detpsh Overview\n  \n\n\n\n\n\n\nLocation, \nGoogle Maps\n\n\nLake Fure introduction from \nWIKI,in Danish", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
+            "location": "/#lake-fure-documentation", 
+            "text": "", 
+            "title": "Lake Fure documentation"
+        }, 
+        {
+            "location": "/#1-introduction-to-lake-furefures", 
+            "text": "", 
+            "title": "1. Introduction to Lake Fure(Fures\u00f8)"
+        }, 
+        {
+            "location": "/#2-lake-fure-physical-environment", 
+            "text": "Lake overview  2D Lake detpsh Overview\n      Location,  Google Maps  Lake Fure introduction from  WIKI,in Danish", 
+            "title": "2. Lake Fure Physical environment"
+        }, 
+        {
+            "location": "/obs/", 
+            "text": "Observations\n\n\nObservation files here refer to in-lake measurements, used for calibration\n\n\nObservation files location\n\n\n../Obs/..\n\n\nTemperature\n\n\nChecking on Mar.1st\n\n\nSurface Temperature, OK \n\nBottom Temperature:from 2007, the data need to modified manually according to temp_profile_obs.dat \n\n\nOther observed variables\n\n\nBottm:/Obs/Fure_bottom_26m_chem.csv \n\nOBS: Modified March 1st. \n\nSurface:/Obs/Fure_surface_biochem.csv", 
+            "title": "Observation"
+        }, 
+        {
+            "location": "/obs/#observations", 
+            "text": "Observation files here refer to in-lake measurements, used for calibration", 
+            "title": "Observations"
+        }, 
+        {
+            "location": "/obs/#observation-files-location", 
+            "text": "../Obs/..", 
+            "title": "Observation files location"
+        }, 
+        {
+            "location": "/obs/#temperature", 
+            "text": "", 
+            "title": "Temperature"
+        }, 
+        {
+            "location": "/obs/#checking-on-mar1st", 
+            "text": "Surface Temperature, OK  \nBottom Temperature:from 2007, the data need to modified manually according to temp_profile_obs.dat", 
+            "title": "Checking on Mar.1st"
+        }, 
+        {
+            "location": "/obs/#other-observed-variables", 
+            "text": "Bottm:/Obs/Fure_bottom_26m_chem.csv  \nOBS: Modified March 1st.  \nSurface:/Obs/Fure_surface_biochem.csv", 
+            "title": "Other observed variables"
+        }, 
+        {
+            "location": "/model/", 
+            "text": "Model set up directory:\n\n\n1D:\n /GOTM/ \n\n\n3D:\n/GETM/\n\n\nModel set ups:\n\n\nlake_fure.xml\n\n\nMeteo data\n\n\nmeteo_file.dat\n\n\nInflow and outflow\n\n\nflow data:\n inflow.dat, outflow.dat \n\n\nchemistry data:\n inflow_chem.dat \n\n\ninflow and outflow chemistry data is merged to one(orignially there is 3 inflows). The results match ODA calculation\n\n\nWorking flow:\n\n\nexport GOTMDIR=~/GOTM/Lake\n\n\nmake namelist\n \n\n\n Compare_results.sh\n \n\n\nview results(pdf files) in ../Model_performance/.\n\n\nCalibration:\n\n\nStep 1:\n Temperature: OK \n\n\nStep2:\n Oxygen: oxygen profile is forced in, so OK \n\n\nStep3:\n Calibrate the bottom variables \n\n\n--Phosphate:", 
+            "title": "Modelling"
+        }, 
+        {
+            "location": "/model/#model-set-up-directory", 
+            "text": "1D:  /GOTM/   3D: /GETM/", 
+            "title": "Model set up directory:"
+        }, 
+        {
+            "location": "/model/#model-set-ups", 
+            "text": "lake_fure.xml", 
+            "title": "Model set ups:"
+        }, 
+        {
+            "location": "/model/#meteo-data", 
+            "text": "meteo_file.dat", 
+            "title": "Meteo data"
+        }, 
+        {
+            "location": "/model/#inflow-and-outflow", 
+            "text": "flow data:  inflow.dat, outflow.dat   chemistry data:  inflow_chem.dat   inflow and outflow chemistry data is merged to one(orignially there is 3 inflows). The results match ODA calculation", 
+            "title": "Inflow and outflow"
+        }, 
+        {
+            "location": "/model/#working-flow", 
+            "text": "export GOTMDIR=~/GOTM/Lake  make namelist     Compare_results.sh    view results(pdf files) in ../Model_performance/.", 
+            "title": "Working flow:"
+        }, 
+        {
+            "location": "/model/#calibration", 
+            "text": "", 
+            "title": "Calibration:"
+        }, 
+        {
+            "location": "/model/#step-1-temperature-ok", 
+            "text": "", 
+            "title": "Step 1: Temperature: OK "
+        }, 
+        {
+            "location": "/model/#step2-oxygen-oxygen-profile-is-forced-in-so-ok", 
+            "text": "", 
+            "title": "Step2: Oxygen: oxygen profile is forced in, so OK "
+        }, 
+        {
+            "location": "/model/#step3-calibrate-the-bottom-variables", 
+            "text": "--Phosphate:", 
+            "title": "Step3: Calibrate the bottom variables "
+        }, 
+        {
+            "location": "/catchment/", 
+            "text": "Lake Fure Catchment\n\n\nCatchment overview\n\n\n\n\n\n\nResidencial area\n\n\nNature types\n\n\nRecreational area", 
+            "title": "Catchment"
+        }, 
+        {
+            "location": "/catchment/#lake-fure-catchment", 
+            "text": "", 
+            "title": "Lake Fure Catchment"
+        }, 
+        {
+            "location": "/catchment/#catchment-overview", 
+            "text": "Residencial area  Nature types  Recreational area", 
+            "title": "Catchment overview"
+        }, 
+        {
+            "location": "/mkdocs/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.\n\n\n\nexample feh\n\n\nHow to make a link\n\n\nGoogle Maps\n\n\nHere is an overview of the \nMark Down syntax\n\n\nDescription\n\n\nVery easy bulleted list:\n\n\n\n\nItem 1\n\n\nItem 2\n\n\nItem 2a\n\n\nItem 2b\n\n\n\n\nAim\n\n\nFen - maybe you have a go at this - filling in figures when you have good results - all you have to do is edit simple text files in the MkDocs directory and commit them - then I'll build the new site.\n\n\nIf you want to add additional pages then edit mkdocs.yml and add e.g.:\n - 'Observations': 'obs.md' + add the file obs.md", 
+            "title": "MkDocs"
+        }, 
+        {
+            "location": "/mkdocs/#welcome-to-mkdocs", 
             "text": "For full documentation visit  mkdocs.org .", 
             "title": "Welcome to MkDocs"
         }, 
         {
-            "location": "/#commands", 
+            "location": "/mkdocs/#commands", 
             "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
             "title": "Commands"
         }, 
         {
-            "location": "/#project-layout", 
+            "location": "/mkdocs/#project-layout", 
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
             "title": "Project layout"
         }, 
         {
-            "location": "/about/", 
-            "text": "This is set up website for FABM-PCLake, an enrichiment of FABM framework and a futher development of PCLake", 
-            "title": "About"
+            "location": "/mkdocs/#example-feh", 
+            "text": "How to make a link  Google Maps  Here is an overview of the  Mark Down syntax", 
+            "title": "example feh"
         }, 
         {
-            "location": "/about/#this-is-set-up-website-for-fabm-pclake-an-enrichiment-of-fabm-framework-and-a-futher-development-of-pclake", 
-            "text": "", 
-            "title": "This is set up website for FABM-PCLake, an enrichiment of FABM framework and a futher development of PCLake"
+            "location": "/mkdocs/#description", 
+            "text": "Very easy bulleted list:   Item 1  Item 2  Item 2a  Item 2b", 
+            "title": "Description"
+        }, 
+        {
+            "location": "/mkdocs/#aim", 
+            "text": "Fen - maybe you have a go at this - filling in figures when you have good results - all you have to do is edit simple text files in the MkDocs directory and commit them - then I'll build the new site.  If you want to add additional pages then edit mkdocs.yml and add e.g.:\n - 'Observations': 'obs.md' + add the file obs.md", 
+            "title": "Aim"
         }
     ]
 }
