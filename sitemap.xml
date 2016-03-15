@@ -11,23 +11,7 @@
 
     
     <url>
-     <loc>None/obs/</loc>
-     <lastmod>2016-03-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/model/</loc>
-     <lastmod>2016-03-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/catchment/</loc>
+     <loc>None/calibration/</loc>
      <lastmod>2016-03-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
