@@ -5,6 +5,6 @@ theme: flatly
 pages:
  - 'Home': 'index.md'
  - 'Calibration': 'calibration.md'
-# - 'Modelling': 'model.md'
+ - 'Modelling': 'model.md'
 #- 'Catchment' : 'catchment.md'
  - 'MkDocs': 'mkdocs.md'

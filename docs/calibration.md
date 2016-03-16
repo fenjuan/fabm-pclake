@@ -1,15 +1,14 @@
-# Observations
-**Observation files here refer to in-lake measurements, used for calibration**
-## Observation files location
-../Obs/..
-## Temperature
-### Checking on Mar.1st
-Surface Temperature, OK <br/>
-Bottom Temperature:from 2007, the data need to modified manually according to temp_profile_obs.dat <br/>
-## Other observed variables
-Bottm:/Obs/Fure_bottom_26m_chem.csv <br/>
-OBS: Modified March 1st. <br/>
-Surface:/Obs/Fure_surface_biochem.csv  
+# Methodology
+Modulized calibration:<br/>
+1. Group state variables according to different variables(modified AN's script to output all the state variables) <br/>
+2. Test the sensitivity of each module by just add 10x/100x exchange rates in each module to see the response<br/>
+3.
+
+
+
+
+
+
 #Parameter tracking
 fabm.yaml file modification
 ### abiotic_water module:
