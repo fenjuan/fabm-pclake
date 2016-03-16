@@ -63,6 +63,12 @@
             
             
                 <li >
+                    <a href="../model/">Modelling</a>
+                </li>
+            
+            
+            
+                <li >
                     <a href="../mkdocs/">MkDocs</a>
                 </li>
             
@@ -82,7 +88,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../mkdocs/">
+                    <a rel="prev" href="../model/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -96,13 +102,7 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#observations">Observations</a></li>
-        
-            <li><a href="#observation-files-location">Observation files location</a></li>
-        
-            <li><a href="#temperature">Temperature</a></li>
-        
-            <li><a href="#other-observed-variables">Other observed variables</a></li>
+        <li class="main active"><a href="#methodology">Methodology</a></li>
         
     
         <li class="main "><a href="#parameter-tracking">Parameter tracking</a></li>
@@ -116,18 +116,11 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="observations">Observations</h1>
-<p><strong>Observation files here refer to in-lake measurements, used for calibration</strong></p>
-<h2 id="observation-files-location">Observation files location</h2>
-<p>../Obs/..</p>
-<h2 id="temperature">Temperature</h2>
-<h3 id="checking-on-mar1st">Checking on Mar.1st</h3>
-<p>Surface Temperature, OK <br/>
-Bottom Temperature:from 2007, the data need to modified manually according to temp_profile_obs.dat <br/></p>
-<h2 id="other-observed-variables">Other observed variables</h2>
-<p>Bottm:/Obs/Fure_bottom_26m_chem.csv <br/>
-OBS: Modified March 1st. <br/>
-Surface:/Obs/Fure_surface_biochem.csv  </p>
+<h1 id="methodology">Methodology</h1>
+<p>Modulized calibration:<br/>
+1. Group state variables according to different variables(modified AN's script to output all the state variables) <br/>
+2. Test the sensitivity of each module by just add 10x/100x exchange rates in each module to see the response<br/>
+3.</p>
 <h1 id="parameter-tracking">Parameter tracking</h1>
 <p>fabm.yaml file modification</p>
 <h3 id="abiotic_water-module">abiotic_water module:</h3>
